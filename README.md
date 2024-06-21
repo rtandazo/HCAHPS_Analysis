@@ -6,3 +6,6 @@ Every year Centers for Medicare & Medicaid Services (CMS) withholds 2% of a hosp
  HCAHPS are used to calculate the patient and community engagement domain, one of four domains, that each contribute 25% to the TPS.
 
 The following analysis investigates surveys between October 2013 to October 2021 with the annual reports (collective quarterly reports) referred to by its release period (10/2013 -- 10/2014 reports referred to as 2015). The 10 HCAHPS dimensions used were communication with nurses, communication with doctors, responsiveness of hospital staff, communication about medicines, cleanliness of hospital environment, quietness of hospital environment, discharge information, care transition, and overall rating of hospital. Dataset obtained from Maven Analytics.
+
+Please use following link for Jupyter Notebook with functioning hyperlinks: 
+https://nbviewer.org/github/rtandazo/HCAHPS_Analysis/blob/15c23e3d6565205ae6f7ce8e613b284ee6ff8d01/HCAHPS%20Patient%20Survey%20Analysis.ipynb 
