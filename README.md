@@ -1,4 +1,4 @@
-# HCAHPS Analysis
+#  HCAHPS Patient Survey Analysis
 
 Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) survey is a national standardized survey used to capture patients' perspective of hospital care. HCAHPS were designed with three goals in mind: 1) create data of patients' perspective of care 2) allow results to be public reports to incentivize hospitals to improve care 3) create transparency and accountability in healthcare to collectively improve quality of care.<sup>1</sup> 
 
