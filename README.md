@@ -1,6 +1,6 @@
 # HCAHPS Analysis
 
-HCAHPS (Hospital Consumer Assessment of Healthcare Providers and Systems) survey is a national standardized survey used to capture patients' perspective of hospital care. HCAHPS were designed with three goals in mind: 1) create data of patients' perspective of care 2) allow results to be public reports to incentivize hospitals to improve care 3) create transparency and accountability in healthcare to collectively improve quality of care.<sup>1</sup> 
+Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) survey is a national standardized survey used to capture patients' perspective of hospital care. HCAHPS were designed with three goals in mind: 1) create data of patients' perspective of care 2) allow results to be public reports to incentivize hospitals to improve care 3) create transparency and accountability in healthcare to collectively improve quality of care.<sup>1</sup> 
 
 Every year Centers for Medicare & Medicaid Services (CMS) withholds 2% of a hospital's revenue that would need to be earned through the Hospital Value-Based Purchasing (VBP) Program that gives penalties or bonuses based on Total Performance Scores (TPS). For an average hospital that has a base operating revenue of $200 million, the total withheld is $4 million, so there is a large incentive to minimize losses!<sup>2</sup>  HCAHPS are used to calculate the patient and community engagement domain, one of four domains, that each contribute 25% to the TPS. 
 
