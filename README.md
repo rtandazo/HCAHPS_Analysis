@@ -1,15 +1,46 @@
-#  HCAHPS Patient Survey Analysis
+# **HCAHPS Patient Survey Exploratory Analysis**
 
-Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS) survey is a national standardized survey used to capture patients' perspective of hospital care. HCAHPS were designed with three goals in mind: 1) create data of patients' perspective of care 2) allow results to be public reports to incentivize hospitals to improve care 3) create transparency and accountability in healthcare to collectively improve quality of care.<sup>1</sup> 
+---
 
-Every year Centers for Medicare & Medicaid Services (CMS) withholds 2% of a hospital's revenue that would need to be earned through the Hospital Value-Based Purchasing (VBP) Program that gives penalties or bonuses based on Total Performance Scores (TPS). For an average hospital that has a base operating revenue of $200 million, the total withheld is $4 million, so there is a large incentive to minimize losses!<sup>2</sup>  HCAHPS are used to calculate the patient and community engagement domain, one of four domains, that each contribute 25% to the TPS. 
+## **Project Overview**
 
-The following analysis investigates surveys between October 2013 to October 2021 with the annual reports (collective quarterly reports) referred to by its release period (10/2013 — 10/2014 reports referred to as 2015). The 10 HCAHPS dimensions used were communication with nurses, communication with doctors, responsiveness of hospital staff, communication about medicines, cleanliness of hospital environment, quietness of hospital environment, discharge information, care transition, and overall rating of hospital. Dataset obtained from Maven Analytics.
+This project explores national and regional trends in HCAHPS (Hospital Consumer Assessment of Healthcare Providers and Systems) survey data. By leveraging Python for data cleaning, exploratory data analysis (EDA), and visualization, the project uncovers operational inefficiencies and patient satisfaction trends over time. The goal was to derive actionable insights to improve patient experience and response rates while aligning with healthcare quality metrics.
 
-For optimal navigation of this project please use following link:
-https://nbviewer.org/github/rtandazo/HCAHPS_Analysis/blob/main/HCAHPS%20Patient%20Survey%20Analysis.ipynb
+---
 
-## References:
+## **Key Features**
 
-1. Centers for Medicare & Medicaid Services. HCAHPS: Patients’ perspectives of care survey . Cms.gov. Published September 6, 2023. https://www.cms.gov/medicare/quality/initiatives/hospital-quality-initiative/hcahps-patients-perspectives-care-survey
-2. Understanding HCAHPS Scores Part 2: Calculating the Value in the Hospital Value-Based Purchasing (VBP) Program. www.linkedin.com. Accessed June 21, 2024. https://www.linkedin.com/pulse/understanding-hcahps-scores-part-2-calculating-value-vbp-reitano-jr-/?trackingId=j54SsbTfRiWVT%2Bv6wRr7qQ%3D%3D
+### **Python Pipeline**
+- **Automated Data Cleaning**:
+  - Processed raw data files into memory-efficient formats:
+    - Optimized data types using `astype` to reduce memory usage
+    - Standardized date columns for temporal analysis
+    - Handled missing values and formatted categorical variables
+  - Merged multiple datasets to create comprehensive analysis tables for:
+    - National-level results
+    - State and regional results
+    - Survey response rates
+  
+- **Dynamic Data Aggregation**:
+  - Calculated year-over-year changes in bottom-box, middle-box, and top-box percentages
+  - Aggregated response rates at national, state, and regional levels
+
+### **Exploratory Data Analysis (EDA)**
+- **Key Trends Identified**:
+  - National and regional response rates declined by 8% since 2015
+  - Bottom-box scores showed significant improvement, but top-box scores steadily declined
+  - Regions like South Atlantic and states such as D.C. and Alaska underperformed in response rates, highlighting opportunities for targeted intervention
+
+- **Advanced Visualizations**:
+  - Created dynamic bar charts, line plots, and subplots to illustrate:
+    - Response rates by state and region
+    - Year-over-year changes in box scores
+    - Percent change in satisfaction measures like "Communication with Nurses" and "Discharge Information"
+
+### **Insights and Findings**
+- **Operational Performance**:
+  - National response rates dropped 8% since 2015, limiting the dataset's representation and reliability
+  - Regions like the South Atlantic and Pacific, and states such as D.C., New Jersey, and Alaska, consistently fell below the national average
+- **Patient Experience**:
+  - "Communication with Nurses" ranked as the lowest-scoring measure across all regions, indicating an area for significant improvement
+  - Bottom-box scores improved the most, reflecting a reduction in extreme dissatisfaction
