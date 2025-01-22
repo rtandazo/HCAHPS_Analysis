@@ -44,3 +44,22 @@ This project explores national and regional trends in HCAHPS (Hospital Consumer 
 - **Patient Experience**:
   - "Communication with Nurses" ranked as the lowest-scoring measure across all regions, indicating an area for significant improvement
   - Bottom-box scores improved the most, reflecting a reduction in extreme dissatisfaction
+
+---
+
+## **Skills Demonstrated**
+
+### **Python Skills**
+- **Data Cleaning and Transformation**:
+  - Leveraged **Pandas** to efficiently clean and structure datasets
+  - Used `merge` and `astype` methods to create memory-optimized, comprehensive data tables
+  - Resampled time-series data to analyze trends across yearly intervals
+
+- **Visualization and Storytelling**:
+  - Designed impactful visualizations using **Seaborn** and **Matplotlib**:
+    - Bar charts, line plots, and subplots to highlight trends and disparities
+    - Custom annotations and dynamic legends for clear interpretation of findings
+
+- **Data Exploration**:
+  - Applied **groupby** and pivot table techniques to uncover patterns at national, state, and regional levels.
+  - Automated calculation of year-over-year percentage changes for performance metrics
